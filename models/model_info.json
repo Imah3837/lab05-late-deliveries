@@ -1,0 +1,18 @@
+{
+  "project": "Late Deliveries Prediction",
+  "best_model": "Logistic Regression",
+  "accuracy": 0.8667,
+  "random_state": 42,
+  "train_test_split": "75/25",
+  "numeric_features": [
+    "distance_km",
+    "items",
+    "hour",
+    "courier_months"
+  ],
+  "categorical_features": [
+    "weather",
+    "day_type",
+    "vehicle"
+  ]
+}
